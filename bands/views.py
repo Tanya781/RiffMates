@@ -7,4 +7,4 @@ def musician(request, musician_id):
     data = {
         "musician": musician,
     }
-    return render(request, "musician.html", )
+    return render(request, "musician.html", data)
